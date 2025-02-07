@@ -266,6 +266,7 @@ section .right {
     justify-content: center;
     background-color: #2C353E;
     color: white;
+    padding: 5vh;
 }
 .columns {
     display: grid;
@@ -278,4 +279,28 @@ section .right {
     flex-direction: column;
     align-items: start;
     text-align: start;
+}
+.foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    padding: 3vh 0;
+    margin: 3vh 0;
+    border-top: 1px solid grey;
+}.copyright {
+    color: lightgrey;
+    text-align: start;
+}
+@media (max-width: 510px) {
+    .columns {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+        gap: 5vh;
+    }
+    .foot {
+        flex-direction: column;
+        width: 98%;
+    }
 }

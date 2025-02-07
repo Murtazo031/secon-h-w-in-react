@@ -12,6 +12,7 @@ import playBtn from "../app/assets/img/Play button (1).png";
 import animation from "../app/assets/img/icon (4).png";
 import logoip from "../app/assets/img/Logo (1).png";
 import Profile from "../app/assets/img/Image (2).png";
+import social from "../app/assets/img/Icon (5).png"
 
 export default function HomePage() {
   return (
@@ -220,6 +221,7 @@ export default function HomePage() {
                 alignItems: "center",
                 fontSize: "24px",
                 gap: "5px",
+                margin:"0 0"
               }}
             >
               <p
@@ -242,13 +244,23 @@ export default function HomePage() {
                 /mo
               </p>
             </h3>
-            <p style={{color:"#fee",lineHeight:"2"}}>
+            <p style={{ color: "#fee", lineHeight: "2" }}>
               Freelancer <br />
               24 hours free support <br />
               Multiple features installed <br />
               100 Elements PSD + Al
             </p>
-            <button style={{backgroundColor:"transparent",border:"1px solid #fee",borderRadius:"5px",padding:"2vh 4vh"}}>subscribe</button>
+            <button
+              style={{
+                backgroundColor: "transparent",
+                border: "1px solid #fee",
+                borderRadius: "5px",
+                padding: "2vh 4vh",
+                color: "white",
+              }}
+            >
+              subscribe
+            </button>
           </div>
           <div>
             <h3>Freelancer</h3>
@@ -258,6 +270,7 @@ export default function HomePage() {
                 alignItems: "center",
                 fontSize: "24px",
                 gap: "5px",
+                margin:"0 0"
               }}
             >
               <p
@@ -280,13 +293,23 @@ export default function HomePage() {
                 /mo
               </p>
             </h3>
-            <p style={{color:"#fee",lineHeight:"2"}}>
+            <p style={{ color: "#fee", lineHeight: "2" }}>
               Freelancer <br />
               24 hours free support <br />
               Multiple features installed <br />
               100 Elements PSD + Al
             </p>
-            <button style={{backgroundColor:"transparent",border:"1px solid #fee",borderRadius:"5px",padding:"2vh 4vh"}}>subscribe</button>
+            <button
+              style={{
+                backgroundColor: "transparent",
+                border: "1px solid #fee",
+                borderRadius: "5px",
+                padding: "2vh 4vh",
+                color: "white",
+              }}
+            >
+              subscribe
+            </button>
           </div>
           <div>
             <h3>Freelancer</h3>
@@ -296,6 +319,7 @@ export default function HomePage() {
                 alignItems: "center",
                 fontSize: "24px",
                 gap: "5px",
+                margin:"0 0"
               }}
             >
               <p
@@ -318,13 +342,23 @@ export default function HomePage() {
                 /mo
               </p>
             </h3>
-            <p style={{color:"#fee",lineHeight:"2"}}>
+            <p style={{ color: "#fee", lineHeight: "2" }}>
               Freelancer <br />
               24 hours free support <br />
               Multiple features installed <br />
               100 Elements PSD + Al
             </p>
-            <button style={{backgroundColor:"transparent",border:"1px solid #fee",borderRadius:"5px",padding:"2vh 4vh"}}>subscribe</button>
+            <button
+              style={{
+                backgroundColor: "transparent",
+                border: "1px solid #fee",
+                borderRadius: "5px",
+                padding: "2vh 4vh",
+                color: "white",
+              }}
+            >
+              subscribe
+            </button>
           </div>
           <div>
             <h3>Freelancer</h3>
@@ -334,6 +368,7 @@ export default function HomePage() {
                 alignItems: "center",
                 fontSize: "24px",
                 gap: "5px",
+                margin:"0 0"
               }}
             >
               <p
@@ -356,14 +391,39 @@ export default function HomePage() {
                 /mo
               </p>
             </h3>
-            <p style={{color:"#fee",lineHeight:"2"}}>
+            <p style={{ color: "#fee", lineHeight: "2" }}>
               Freelancer <br />
               24 hours free support <br />
               Multiple features installed <br />
               100 Elements PSD + Al
             </p>
-            <button style={{backgroundColor:"transparent",border:"1px solid #fee",borderRadius:"5px",padding:"2vh 4vh"}}>subscribe</button>
+            <button
+              style={{
+                backgroundColor: "transparent",
+                border: "1px solid #fee",
+                borderRadius: "5px",
+                padding: "2vh 4vh",
+                color: "white",
+              }}
+            >
+              subscribe
+            </button>
           </div>
+        </div>
+        <div className="foot">
+            <div style={{display:"flex",gap:"2vh"}}>
+           <p>Home</p>
+           <p>Privacy</p>
+           <p>Terms & Conditions</p>
+           <p>About us</p>
+           <p>Contact us</p>
+            </div>
+            <div>
+                <img src={social} alt="" />
+            </div>
+        </div>
+        <div className="copyright">
+            <p>@ A new era 2016. Awesome wireframe  by Andrei Dorin</p>
         </div>
       </footer>
     </>
