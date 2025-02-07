@@ -7,7 +7,6 @@ import branding from "../app/assets/img/background (2).png";
 import brandicon from "../app/assets/img/Group 59.png";
 import writingicon from "../app/assets/img/icon (3).png";
 import johndoe from "../app/assets/img/Image.png";
-import bacground from "../app/assets/img/Background (3).png";
 import playBtn from "../app/assets/img/Play button (1).png";
 import animation from "../app/assets/img/icon (4).png";
 import logoip from "../app/assets/img/Logo (1).png";
@@ -18,7 +17,7 @@ export default function HomePage() {
   return (
     <>
       <header>
-        <nabar className="navbar">
+        <div className="navbar">
           <div className="logo">
             <img src={icon} alt="" />
             <p>Maker</p>
@@ -36,7 +35,7 @@ export default function HomePage() {
           <div className="sign">
             <button>Sign Up</button>
           </div>
-        </nabar>
+        </div>
         <section>
           <div className="left">
             <h1 style={{ fontSize: "48px", color: "#35AFBF" }}>
